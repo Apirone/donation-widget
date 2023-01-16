@@ -1,4 +1,5 @@
 
+
 # **Apirone Donation Widget**
 
 **[Apirone](https://apirone.com) Donation Widget** is an ultra simple vanilla JS based widget that can be used as a donation widget for any platform or service.
@@ -10,9 +11,9 @@
 
 ### **Download and host yourself** 
 
-[**Development version**](https://github.com/Apirone/donation-widget/blob/main/js/widget.js)  - uncompressed. Intended for debugging.
+[**Development version**](https://github.com/Apirone/donation-widget/releases/latest/download/release.zip)  - uncompressed. Intended for debugging.
 
-[**Production version**](https://github.com/Apirone/donation-widget/blob/main/js/widget.min.js) - minified version.
+[**Production version**](https://github.com/Apirone/donation-widget/releases/latest/download/release.zip) - minified version.
 
 ### **Add container**
 
@@ -43,3 +44,7 @@ Add a `<script>` tag with some custom parameters:
 |primary-color |HEX without "#"|"397cb0"|the main color of the widget (buttons, borders, etc.)|
 |default-crypto|cryptocurrency ticker symbol|none (no cryptocurrency selected)|the cryptocurrency that will be selected upon loading|
 |debug-mode    |boolean|false|adds testnet coins|
+|dark          |boolean|false|dark theme: dark background, white text|
+|embedded      |boolean|false|removed background, paddings and border, width is not limited|
+|height        |number|550|set the heigth of the widget, useful for large widget width|
+|align         |left/center/right|left|align text to the left, right or center
